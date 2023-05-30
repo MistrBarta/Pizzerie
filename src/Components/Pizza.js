@@ -2,13 +2,6 @@ import React from "react"
 import "../Styles/Pizza.css";
 
 function Pizza(props) {
-
-    let data = "1";
-    function btn(){
-        data="Uspěšně přidáno do košíku"
-        alert(data);
-    }
-
   return (
     <div className="tempalate-page">
         <div className="tempalate-content">
@@ -22,7 +15,7 @@ function Pizza(props) {
                 <div className='template-price'>
                     <p>Cena:{props.price}Kč</p>
                 </div>
-                <button onClick={btn} className='template-button'>Koupit</button>
+                <button className='template-button'>Koupit</button>
             </div>
         </div>
     </div>
