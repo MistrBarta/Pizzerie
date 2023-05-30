@@ -15,7 +15,7 @@ function Navbar(){
             <nav ref={navRef}>
                     <a href="/">Hlavní stránka</a>
                     <a href="/Menu">Menu</a>
-                    <a  href="/Orders">Objendávky <FaShoppingCart style={{ fontSize: 15 }} /></a>
+                    <a  href="/Orders">Košík <FaShoppingCart style={{ fontSize: 15 }} /></a>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     
                         <FaTimes/>
