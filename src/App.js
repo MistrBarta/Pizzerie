@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from "./Components/Navbar";
 import Home from './Components/Home';
 import Menu from './Components/Menu';
-import Orders from './Components/Orders'
+import Cart from './Components/Cart'
 import Footer from './Components/Footer';
 import { Routes, Route } from "react-router-dom";
 
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route exact index path='/' element={<Home />} />
         <Route path='Menu' element={<Menu />} />
-        <Route path='Orders' element={<Orders />} />
+        <Route path='Cart' element={<Cart />} />
       </Routes>
       <Footer/>
     </>
