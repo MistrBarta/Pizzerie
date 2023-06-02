@@ -4,12 +4,6 @@ import Pizza from "./Pizza";
 
  function Menu(){
     return(
-        /*<section>
-            {list.map((item) => (
-                <Pizza key={item.id} item={item} handleClick={handleClick}/>
-            ))};
-        </section>
-        */
         <div>
             <Pizza id={1} name="Margherita" ingredients="Tomato sauce, mozzarella, basil" price={180}/>
             <Pizza id={2} name="Pepperoni" ingredients="Tomato sauce, mozzarella, pepperoni" price={180}/>

@@ -1,9 +1,7 @@
 import React from "react"
 import "../Styles/Pizza.css";
 
-function Pizza(props /*item*/) {
-
-    /*const {name, ingredients, price} = item;*/
+function Pizza(props) {
 
   return (
     <div className="tempalate-page">
